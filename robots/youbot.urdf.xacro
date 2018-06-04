@@ -65,7 +65,7 @@
     <origin xyz="0 0 0" rpy="0 0 0" />
   </xacro:youbot_gripper>
 
-  <xacro:realsense_sr300_camera name="realsense" parent="arm_link_5">
+  <xacro:realsense_sr300_camera name="camera_ir_optical_frame" parent="arm_link_5">
     <origin xyz="-0.05532 -0.0323613 0.0594661" rpy="0.0462514 -0.00565613 1.55401" />
   </xacro:realsense_sr300_camera>
 

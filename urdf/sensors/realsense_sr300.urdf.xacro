@@ -8,9 +8,9 @@
 	<joint name="${name}_camera_joint" type="fixed">
 		<xacro:insert_block name="origin" />
 		<parent link="${parent}" />
-		<child link="${name}_camera_ir" />
+		<child link="${name}" />
 	</joint>
-	<link name="${name}_camera_ir">
+	<link name="${name}">
 <!--       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
